@@ -1,4 +1,4 @@
-/* Version 0.6 (style for Page Builder Layout 4 Skin-Conditions)*/
+/* Version 0.7 (style for Page Builder Layout-2 4 Skin-Conditions)*/
 
 /***************************************Home**********************************************/
 /*
@@ -40,15 +40,13 @@ a.see_term:hover{color: #cb5920;}
 
 .see_term{margin-top:20px; background-color:#B8F0FF;padding:5px;border-radius:20px;}
 
-
-/**************************************Logo********************************************/
 /*
 *** Change Logo Size
  */
 img.kad-standard-logo{max-width:300px !important;}
 
 
-/**************************************Topbar********************************************/
+/**************************************Global Topbar Style*************************************/
 /*
 *** Change Social Media, Cart, Search to Black
  */
@@ -68,6 +66,13 @@ img.kad-standard-logo{max-width:300px !important;}
 
 /************************Skin-condition global style**************************************/
 /*
+*** Page header background style
+ */
+ /*div#pageheader.titleclass>div.container{background-color: #EBDDE2; width: 1140px !important;} */
+ body.single-portfolio #pageheader.titleclass {display: none;}
+
+
+/*
 *** Left Nav Menu Style
  */
 /* Menu ul and li */
@@ -86,12 +91,11 @@ img.kad-standard-logo{max-width:300px !important;}
 /* Consultation Link */
 a.skin-condition-book-consultation:link,a.skin-condition-book-consultation:visited{text-align: center; color:#cb5920;}
 
-a.skin-condition-book-consultation:hover{text-align: center; color: #000000;}
-
 /* Consultation Style */
-.skin-condition-book-consultation{text-align: center; background-color:#B8F0FF;padding:10px;border-radius:20px;}
+.skin-condition-book-consultation{text-align: center; background-color:#EBDDE2;padding:10px;}
+.skin-condition-book-consultation:hover{text-align: center; background-color:#000000;padding:10px;}
 
-.entry-content.col-md-12.kad_portfolio_nomargin .skin-condition-left-column-book-consultation{text-align: center;}
+
 /*******************************************************/
 /*
 *** Assistance
