@@ -39,6 +39,29 @@ a.see_term:hover{color: #cb5920;}
 .see_term{margin-top:20px; background-color:#B8F0FF;padding:5px;border-radius:20px;}
 
 
+/**************************************Logo********************************************/
+/*
+*** Change Logo Size
+ */
+img.kad-standard-logo{max-width:300px !important;}
+
+
+/**************************************Topbar********************************************/
+/*
+*** Change Social Media, Cart, Search to Black
+ */
+.topbarmenu ul li a, #topbar-search #searchsubmit, #topbar-search input[type=text] {color: #000} 
+
+/*
+*** Change Placeholder of Search to Black
+ */
+#topbar-search .form-search ::-webkit-input-placeholder{color: #000;}
+
+#topbar-search .form-search :-moz-placeholder{color: #000;}
+
+#topbar-search .form-search ::-moz-placeholder{color: #000;}
+
+#topbar-search .form-search :-ms-input-placeholder {color: #000;}
 
 
 /************************Skin-condition global style**************************************/
