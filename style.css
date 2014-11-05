@@ -1,4 +1,4 @@
-/* Version 0.7.5 (style for Page Builder Layout-2 4 Skin-Conditions) Dated Nov 4, 2014*/
+/* Version 0.7.6 (style for Page Builder Layout-2 4 Skin-Conditions) Dated Nov 4, 2014*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -28,13 +28,10 @@ div.homecontent.clearfix.home-margin div#pg-16-0.panel-grid div.panel-row-style-
 /* Consultation Right */
 #pgc-16-0-1.panel-grid-cell{margin-top:10px;}
 
-a.consultation-link:link,a.consultation-link:visited{font-size: 20px; color:#FFFFFF; border: 5px solid #ffffff; padding: 10px;}
+a.consultation-link{font-size: 20px; padding: 0 32px 28px 32px;}
 
-a.consultation-link:hover{font-size: 20px;  color: #5A5A5A; padding: 10px; border: 5px solid #ffffff;}
-
-/*.consultation-link{background-color: #EBDDE2; padding: 10px;}*/
-
-.consultation-link-paragraph{margin-top: 15px; text-align: right;}
+p.consultation-link-paragraph{background-image: url('http://beaucare.ca/wp-content/uploads/2014/11/consultation-button.gif'); width:300px; height: 50px; text-align: center;}
+p.consultation-link-paragraph:hover{background-image: url('http://beaucare.ca/wp-content/uploads/2014/11/consultation-button-hover.gif'); width:300px; height: 50px; text-align: center;}
 /*******************************************************/
 /*
 *** Welcome to Synergy
@@ -57,8 +54,9 @@ img.kad-standard-logo{max-width:300px !important;}
 /*
 *** Special Offer
  */
+#pg-16-4{margin-bottom: 0;}
 
-.special-offer{background-image: url('http://beaucare.ca/wp-content/uploads/2014/10/special-offer-bg.gif'); width: 1140px; height: 150px;}
+
 
 /**************************************Global Topbar Style*************************************/
 /*
