@@ -1,4 +1,4 @@
-/* Version 0.7.9 (style for Layout 4 Skin-Conditions) Dated Nov 6, 2014 Home*/
+/* Version 0.8 (style for Layout 4 Skin-Conditions) Dated Nov 6, 2014 Home*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -8,89 +8,75 @@ body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
  */
 img.kad-standard-logo{max-width:300px !important;}
 
+/*******************************************************/
 /*
-*** Navigation Hover
+*** Navigation + Hover
  */
-
+/* Nav Font Size */
 .menu-home.menu-item-30{font-size: 18px;}
-
+/* Nav Hover */
 #menu-top-navigation.sf-menu.sf-js-enabled a:hover{border-bottom: 3px solid #EBDDE2;}
 
 /*******************************************************/
 /*
-*** Consultation
+*** Book Free Consultation - Homepage
  */
-
+/* Text Align */
 div#home-consultation-box{text-align: center;}
-
+/* Consultation Header */
 .home-consultation-header{font-size: 28px;}
+/* Consultation Description */
 .home-consultation-info{font-size: 19px; margin-top:20px;}
-
+/* Consultation Button */
 .home-consultation-link-paragraph{margin-top: 40px;}
+/* Consultation Button Style*/
 a.home-consultation-link:link, a.home-consultation-link:visited{font-size: 21px; color: #5A5A5A; padding: 5px 10px; border: 3px solid #000;}
+/* Consultation Button Hover Style*/
 a.home-consultation-link:hover{font-size: 21px; color: #FFF; padding: 5px 10px; border: 3px solid #000; background: #5A5A5A}
 
-
-/* Consulation Box */
-div.homecontent.clearfix.home-margin div#pg-16-0.panel-grid div.panel-row-style-wide-grey.panel-row-style{padding-bottom: 10px !important;}
-
-div.homecontent.clearfix.home-margin div#pg-16-0.panel-grid div.panel-row-style-wide-grey.panel-row-style div#pgc-16-0-0.panel-grid-cell {padding-left: 0 !important;}
-
-/* Consultation Left */
-.consultation-header{color: #5A5A5A; font-size: 30px;}
-
-.consultation-info{margin-top: 20px; color: #5A5A5A; font-size: 20px;}
-
-/* Consultation Right */
-#pgc-16-0-1.panel-grid-cell{margin-top:40px;}
-
-a.consultation-link{font-size: 20px; padding: 0 45px 28px 45px;}
-
-p.consultation-link-paragraph{background-image: url('http://beaucare.ca/wp-content/uploads/2014/11/consultation-button.gif'); width:300px; height: 50px; text-align: center;}
-p.consultation-link-paragraph:hover{background-image: url('http://beaucare.ca/wp-content/uploads/2014/11/consultation-button-hover.gif'); width:300px; height: 50px; text-align: center;}
 /*******************************************************/
 /*
-*** Welcome to Synergy
+*** Welcome to Synergy 'Statement'
  */
-/* The whole welcome section */
+/* The whole Welcome section */
 div#pg-16-1{max-width: 900px; margin: auto;}
-
 /* Welcome Header */
 div#pg-16-1>div#panel-16-1-0-0>h3.widget-title{font-weight: 600;}
-
 /* Welcome intro */
 div#panel-16-1-0-0 div.textwidget {text-align: justify;}
 .welcome-intro {font-size: 19px; line-height: 1.3em;}
-
-/* See Terms Link */
+/* See Terms Button Style */
 a.see_term:link,a.see_term:visited{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000;}
-
+/* See Terms Button Hover Style */
 a.see_term:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #EBDDE2;}
+
 /*******************************************************/
 /*
 *** See Our Monthly Special
  */
-/* Paragraph */
+/* The Whole Section */
 div#pg-16-4>div#pgc-16-4-0>div#panel-16-4-0-0>div.textwidget{width: auto; height: 150px; background-image: url(http://beaucare.ca/wp-content/uploads/2014/10/special-offer-bg.gif); text-align: center;}
-/* Button */
+/* Monthly Special Font Style */
 .monthly-special {font-size: 28px; padding-top: 60px;}
+/* Monthly Special Button Style */
 a.monthly-special-link:link, a.monthly-special-link:visited { padding: 5px 10px; border: 3px solid #000; color: #000;}
+/* Monthly Special Button Hover Style */
 a.monthly-special-link:hover { padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #EBDDE2;}
-/* Button with Responsive */
+/* Monthly Special Button With Responsive Style*/
 @media (max-device-width: 375px) {.monthly-special {font-size: 20px; padding-top: 60px;}}
-@media (max-device-width: 285px) {.monthly-special {font-size: 14px; padding-top: 60px;}}
+@media (max-device-width: 285px) {.monthly-special {font-size: 14px;}}
 
 /*******************************************************/
 /* 
 *** Touch up for miscellaneous combinations
  */
-
-/*Treatment , Skin Condition Header*/
+/* Treatment and Skin Condition Header Background */
 div#panel-16-2-0-0>h3, div#panel-16-3-0-0>h3{background-color: #EBDDE2; margin-bottom: 0; padding-left: 15px; font-size: 18px;}
-
-/*Top margin of Welcome to Synergy, Treatment and Skin Condition*/
-
+/* Top margin of Welcome to Synergy, Treatment and Skin Condition */
 div#pg-16-1, div#pg-16-2, div#pg-16-3, div#pg-16-4{margin-top: 80px;}
+
+
+
 
 
 
@@ -100,26 +86,29 @@ div#pg-16-1, div#pg-16-2, div#pg-16-3, div#pg-16-4{margin-top: 80px;}
  */
 .topbarmenu ul li a, #topbar-search #searchsubmit, #topbar-search input[type=text] {color: #000} 
 
+/*******************************************************/
 /*
 *** Change Placeholder of Search to Black
  */
 #topbar-search .form-search ::-webkit-input-placeholder{color: #000;}
-
 #topbar-search .form-search :-moz-placeholder{color: #000;}
-
 #topbar-search .form-search ::-moz-placeholder{color: #000;}
-
 #topbar-search .form-search :-ms-input-placeholder {color: #000;}
 
 
-/************************Skin-condition global style**************************************/
+
+
+
+
+/************************Skin-condition global style***********************************************/
 /*
 *** Page header remove
  */
- body.single-portfolio #pageheader.titleclass {display: none;}
+body.single-portfolio #pageheader.titleclass {display: none;}
 
+/*******************************************************/
 /*
-*** Left Nav Menu Style
+*** Left Nav Menu Style  (Might Not Be Needed)
  */
 /* Menu ul and li */
 .entry-content.col-md-12.kad_portfolio_nomargin ul{padding-left:0;}
@@ -130,27 +119,37 @@ div#pg-16-1, div#pg-16-2, div#pg-16-3, div#pg-16-4{margin-top: 80px;}
 .entry-content.col-md-12.kad_portfolio_nomargin ul#menu-skin-condition.menu li>a:link,.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-skin-condition.menu li>a:visited{color: #000000;}
 
 .entry-content.col-md-12.kad_portfolio_nomargin ul#menu-skin-condition.menu li>a:hover{color: #B8F0FF;}
+
 /*******************************************************/
 /*
-*** Book Free Consultation
+*** Book Free Consultation - For all Portfolios
  */
-
-
+/* Consultation Section Styling */
 div#portfolio-consultation-box{text-align: center; background-image: url("http://beaucare.ca/wp-content/uploads/2014/10/special-offer-bg.gif"); max-width: 1140px; max-height: 150px; padding-top: 20px; padding-bottom: 18px;}
-
+/* Consultation Header */
 .portfolio-consultation-header{font-size: 28px;}
+/* Consultation Description */
 .portfolio-consultation-info{font-size: 19px; margin-top:10px;}
-
+/* Consultation Link Position */
 .portfolio-consultation-link-paragraph{margin-top: 30px;}
+/* Consultation Button Style */
 a.portfolio-consultation-link:link, a.portfolio-consultation-link:visited{font-size: 21px; color: #5A5A5A; padding: 5px 10px; border: 3px solid #000;}
+/* Consultation Button Hover Style */
 a.portfolio-consultation-link:hover{font-size: 21px; color: #FFF; padding: 5px 10px; border: 3px solid #000; background: #5A5A5A}
 
+/* Consultation Button with Responsive Style */
 @media (max-device-width: 600px) {
+	/* Consultation Section Styling */
 	div#portfolio-consultation-box{padding-top: 5px !important;}
+	/* Consultation Header */
 	.portfolio-consultation-header{font-size: 20px; }
+	/* Consultation Description */
 	.portfolio-consultation-info{font-size: 16px; margin-top:5px;}
+	/* Consultation Link Position */
 	p.portfolio-consultation-link-paragraph {margin-top: 0;}
+	/* Consultation Button Style */
 	a.portfolio-consultation-link:link, a.portfolio-consultation-link:visited{font-size: 16px; color: #5A5A5A; padding: 5px 10px; border: 3px solid #000;}
+	/* Consultation Button Hover Style */
 	a.portfolio-consultation-link:hover{font-size: 16px; color: #FFF; padding: 5px 10px; border: 3px solid #000; background: #5A5A5A}
 }
 
@@ -161,7 +160,7 @@ div.entry-content.col-md-12.kad_portfolio_nomargin div.panel.widget.widget_virtu
 
 /*******************************************************/
 /*
-*** Assistance
+*** Assistance (Might not be needed)
  */
 /* Assistance Column Style */
 .entry-content.col-md-12.kad_portfolio_nomargin .panel.widget.widget_text.panel-last-child .skin-condition-assistance{text-align: center; background-color: #B2ADAD; padding: 10px 0;}
