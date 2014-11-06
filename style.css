@@ -1,20 +1,36 @@
-/* Version 0.7.6 (style for Page Builder Layout-2 4 Skin-Conditions) Dated Nov 4, 2014*/
+/* Version 0.7.7 (style for Page Builder Layout-2 4 Skin-Conditions) Dated Nov 5, 2014 Office*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
 /***************************************Home**********************************************/
 /*
-*** Navigation Border + Hover + Shadow
+*** Change Logo Size
  */
-nav>ul li{border-left: 2px solid #798487;}
+img.kad-standard-logo{max-width:300px !important;}
 
-.menu-home.menu-item-30{border-left-style: none !important;}
+/*
+*** Navigation Hover
+ */
 
-#menu-top-navigation.sf-menu.sf-js-enabled a:hover{background-color: #A4ECFC !important; color: #557B9F; 	text-shadow:0 0 1px #0000FF;}
+.menu-home.menu-item-30{font-size: 18px;}
+
+#menu-top-navigation.sf-menu.sf-js-enabled a:hover{border-bottom: 3px solid #EBDDE2;}
+
 /*******************************************************/
 /*
 *** Consultation
  */
+
+div#home-consultation-box{text-align: center;}
+
+.home-consultation-header{font-size: 28px;}
+.home-consultation-info{font-size: 19px; margin-top:20px;}
+
+.home-consultation-link-paragraph{margin-top: 40px;}
+a.home-consultation-link:link, a.home-consultation-link:visited{font-size: 21px; color: #5A5A5A; padding: 5px 10px; border: 3px solid #000;}
+a.home-consultation-link:hover{font-size: 21px; color: #FFF; padding: 5px 10px; border: 3px solid #000; background: #5A5A5A}
+
+
 /* Consulation Box */
 div.homecontent.clearfix.home-margin div#pg-16-0.panel-grid div.panel-row-style-wide-grey.panel-row-style{padding-bottom: 10px !important;}
 
@@ -26,9 +42,9 @@ div.homecontent.clearfix.home-margin div#pg-16-0.panel-grid div.panel-row-style-
 .consultation-info{margin-top: 20px; color: #5A5A5A; font-size: 20px;}
 
 /* Consultation Right */
-#pgc-16-0-1.panel-grid-cell{margin-top:10px;}
+#pgc-16-0-1.panel-grid-cell{margin-top:40px;}
 
-a.consultation-link{font-size: 20px; padding: 0 32px 28px 32px;}
+a.consultation-link{font-size: 20px; padding: 0 45px 28px 45px;}
 
 p.consultation-link-paragraph{background-image: url('http://beaucare.ca/wp-content/uploads/2014/11/consultation-button.gif'); width:300px; height: 50px; text-align: center;}
 p.consultation-link-paragraph:hover{background-image: url('http://beaucare.ca/wp-content/uploads/2014/11/consultation-button-hover.gif'); width:300px; height: 50px; text-align: center;}
@@ -37,24 +53,36 @@ p.consultation-link-paragraph:hover{background-image: url('http://beaucare.ca/wp
 *** Welcome to Synergy
  */
 /* The whole welcome section */
-#panel-16-1-0-0.panel.widget.widget_text.panel-first-child.panel-last-child{text-align: center;}
+div#pg-16-1{max-width: 900px; margin: auto;}
+
+/* Welcome Header */
+div#pg-16-1>div#panel-16-1-0-0>h3.widget-title{font-weight: 600;}
+
+/* Welcome intro */
+div#panel-16-1-0-0 div.textwidget {text-align: justify;}
+.welcome-intro {font-size: 19px; line-height: 1.3em;}
 
 /* See Terms Link */
-a.see_term:link,a.see_term:visited{color:#000000;}
+a.see_term:link,a.see_term:visited{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000;}
 
-a.see_term:hover{color: #cb5920;}
-
-.see_term{margin-top:20px; background-color:#B8F0FF;padding:5px;border-radius:20px;}
-
+a.see_term:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #EBDDE2;}
+/*******************************************************/
 /*
-*** Change Logo Size
+*** Special Offer Section
  */
-img.kad-standard-logo{max-width:300px !important;}
+div#pg-16-4>div#pgc-16-4-0>div#panel-16-4-0-0>div.textwidget{width: auto; height: 150px; background-image: url(http://beaucare.ca/wp-content/uploads/2014/10/special-offer-bg.gif); text-align: center;}
+.monthly-special {font-size: 50px; padding-top: 50px;}
+/*******************************************************/
+/* 
+*** Touch up for miscellaneous combinations
+ */
 
-/*
-*** Special Offer
- */
-#pg-16-4{margin-bottom: 0;}
+/*Treatment , Skin Condition Header*/
+div#panel-16-2-0-0>h3, div#panel-16-3-0-0>h3{background-color: #EBDDE2; margin-bottom: 0; padding-left: 15px; font-size: 18px;}
+
+/*Top margin of Welcome to Synergy, Treatment and Skin Condition*/
+
+div#pg-16-1, div#pg-16-2, div#pg-16-3, div#pg-16-4{margin-top: 80px;}
 
 
 
@@ -78,11 +106,9 @@ img.kad-standard-logo{max-width:300px !important;}
 
 /************************Skin-condition global style**************************************/
 /*
-*** Page header background style
+*** Page header remove
  */
- /*div#pageheader.titleclass>div.container{background-color: #EBDDE2; width: 1140px !important;} */
  body.single-portfolio #pageheader.titleclass {display: none;}
-
 
 /*
 *** Left Nav Menu Style
@@ -100,12 +126,16 @@ img.kad-standard-logo{max-width:300px !important;}
 /*
 *** Book Free Consultation
  */
-/* Consultation Link */
-a.skin-condition-book-consultation:link,a.skin-condition-book-consultation:visited{text-align: center; color:#cb5920;}
 
-/* Consultation Style */
-.skin-condition-book-consultation{text-align: center; background-color:#EBDDE2;padding:10px;}
-.skin-condition-book-consultation:hover{text-align: center; background-color:#000000;padding:10px;}
+
+/* Consultation Description Paragraph */
+a.consultation-link-in-portfolio{font-size: 20px; padding: 0 45px 28px 45px;}
+
+p.consultation-link-paragraph-in-portfolio{margin-top: 30px; background-image: url('http://beaucare.ca/wp-content/uploads/2014/11/consultation-button.gif'); width:300px; height: 50px; text-align: center;}
+p.consultation-link-paragraph-in-portfolio:hover{margin-top: 30px; background-image: url('http://beaucare.ca/wp-content/uploads/2014/11/consultation-button-hover.gif'); width:300px; height: 50px; text-align: center;}
+
+
+
 
 
 /*******************************************************/
