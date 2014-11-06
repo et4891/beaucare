@@ -1,4 +1,4 @@
-/* Version 0.7.7 (style for Page Builder Layout-2 4 Skin-Conditions) Dated Nov 5, 2014 Office*/
+/* Version 0.7.8 (style for Page Builder Layout-2 4 Skin-Conditions) Dated Nov 5, 2014 Office*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -71,7 +71,10 @@ a.see_term:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; col
 *** Special Offer Section
  */
 div#pg-16-4>div#pgc-16-4-0>div#panel-16-4-0-0>div.textwidget{width: auto; height: 150px; background-image: url(http://beaucare.ca/wp-content/uploads/2014/10/special-offer-bg.gif); text-align: center;}
-.monthly-special {font-size: 50px; padding-top: 50px;}
+.monthly-special {font-size: 28px; padding-top: 60px;}
+a.monthly-special-link:link, a.monthly-special-link:visited { padding: 5px 10px; border: 3px solid #000; color: #000;}
+a.monthly-special-link:hover { padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #EBDDE2;}
+
 /*******************************************************/
 /* 
 *** Touch up for miscellaneous combinations
