@@ -1,4 +1,4 @@
-/* Version 0.7.8 (style for Page Builder Layout-2 4 Skin-Conditions) Dated Nov 5, 2014 Office*/
+/* Version 0.7.9 (style for Layout 4 Skin-Conditions) Dated Nov 6, 2014 Home*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -68,12 +68,17 @@ a.see_term:link,a.see_term:visited{font-size: 21px; padding: 5px 10px; border: 3
 a.see_term:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #EBDDE2;}
 /*******************************************************/
 /*
-*** Special Offer Section
+*** See Our Monthly Special
  */
+/* Paragraph */
 div#pg-16-4>div#pgc-16-4-0>div#panel-16-4-0-0>div.textwidget{width: auto; height: 150px; background-image: url(http://beaucare.ca/wp-content/uploads/2014/10/special-offer-bg.gif); text-align: center;}
+/* Button */
 .monthly-special {font-size: 28px; padding-top: 60px;}
 a.monthly-special-link:link, a.monthly-special-link:visited { padding: 5px 10px; border: 3px solid #000; color: #000;}
 a.monthly-special-link:hover { padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #EBDDE2;}
+/* Button with Responsive */
+@media (max-device-width: 375px) {.monthly-special {font-size: 20px; padding-top: 60px;}}
+@media (max-device-width: 285px) {.monthly-special {font-size: 14px; padding-top: 60px;}}
 
 /*******************************************************/
 /* 
@@ -131,15 +136,28 @@ div#pg-16-1, div#pg-16-2, div#pg-16-3, div#pg-16-4{margin-top: 80px;}
  */
 
 
-/* Consultation Description Paragraph */
-a.consultation-link-in-portfolio{font-size: 20px; padding: 0 45px 28px 45px;}
+div#portfolio-consultation-box{text-align: center; background-image: url("http://beaucare.ca/wp-content/uploads/2014/10/special-offer-bg.gif"); max-width: 1140px; max-height: 150px; padding-top: 20px; padding-bottom: 18px;}
 
-p.consultation-link-paragraph-in-portfolio{margin-top: 30px; background-image: url('http://beaucare.ca/wp-content/uploads/2014/11/consultation-button.gif'); width:300px; height: 50px; text-align: center;}
-p.consultation-link-paragraph-in-portfolio:hover{margin-top: 30px; background-image: url('http://beaucare.ca/wp-content/uploads/2014/11/consultation-button-hover.gif'); width:300px; height: 50px; text-align: center;}
+.portfolio-consultation-header{font-size: 28px;}
+.portfolio-consultation-info{font-size: 19px; margin-top:10px;}
 
+.portfolio-consultation-link-paragraph{margin-top: 30px;}
+a.portfolio-consultation-link:link, a.portfolio-consultation-link:visited{font-size: 21px; color: #5A5A5A; padding: 5px 10px; border: 3px solid #000;}
+a.portfolio-consultation-link:hover{font-size: 21px; color: #FFF; padding: 5px 10px; border: 3px solid #000; background: #5A5A5A}
 
+@media (max-device-width: 600px) {
+	div#portfolio-consultation-box{padding-top: 5px !important;}
+	.portfolio-consultation-header{font-size: 20px; }
+	.portfolio-consultation-info{font-size: 16px; margin-top:5px;}
+	p.portfolio-consultation-link-paragraph {margin-top: 0;}
+	a.portfolio-consultation-link:link, a.portfolio-consultation-link:visited{font-size: 16px; color: #5A5A5A; padding: 5px 10px; border: 3px solid #000;}
+	a.portfolio-consultation-link:hover{font-size: 16px; color: #FFF; padding: 5px 10px; border: 3px solid #000; background: #5A5A5A}
+}
 
-
+/*
+*** Portfolio Carousel Header
+ */
+div.entry-content.col-md-12.kad_portfolio_nomargin div.panel.widget.widget_virtue_carousel_widget.panel-first-child.panel-last-child>h3.widget-title{background-color: #EFE4E8; font-size: 18px; margin-top: 80px; margin-bottom: 0; padding-left: 15px}
 
 /*******************************************************/
 /*
