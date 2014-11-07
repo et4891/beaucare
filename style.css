@@ -1,4 +1,4 @@
-/* Version 0.8 (style for Layout 4 Skin-Conditions) Dated Nov 6, 2014 Home*/
+/* Version 0.8.1 Dated Nov 6, 2014 Night - Home*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -84,16 +84,36 @@ div#pg-16-1, div#pg-16-2, div#pg-16-3, div#pg-16-4{margin-top: 80px;}
 /*
 *** Change Social Media, Cart, Search to Black
  */
-.topbarmenu ul li a, #topbar-search #searchsubmit, #topbar-search input[type=text] {color: #000} 
+.topbarmenu ul li a, #topbar-search #searchsubmit, #topbar-search input[type=text] {color: #5A5A5A} 
+
+/*******************************************************/
+/*
+*** Topbar width change
+ */
+/* Social Media */
+section#topbar.topclass .col-md-6.col-sm-6.kad-topbar-left {width: 30%;}
+/* Search Bar */
+section#topbar.topclass .col-md-6.col-sm-6.kad-topbar-right {width: 70%;}
 
 /*******************************************************/
 /*
 *** Change Placeholder of Search to Black
  */
-#topbar-search .form-search ::-webkit-input-placeholder{color: #000;}
-#topbar-search .form-search :-moz-placeholder{color: #000;}
-#topbar-search .form-search ::-moz-placeholder{color: #000;}
-#topbar-search .form-search :-ms-input-placeholder {color: #000;}
+#topbar-search .form-search ::-webkit-input-placeholder{color: #5A5A5A;}
+#topbar-search .form-search :-moz-placeholder{color: #5A5A5A;}
+#topbar-search .form-search ::-moz-placeholder{color: #5A5A5A;}
+#topbar-search .form-search :-ms-input-placeholder {color: #5A5A5A;}
+
+/*******************************************************/
+/*
+*** Search Bar
+ */
+/* Location Text */
+.location-topbar {color: #5A5A5A;}
+.location-topbar span.bold {font-weight: 800;}
+/* Search Input */
+div#topbar-search.topbar-widget > form#searchform.form-search {margin-top: 8px; margin-right: 30px;}
+form#searchform.form-search input#s.search-query, form#searchform.form-search button#searchsubmit.search-icon {height: 30px;}
 
 
 
