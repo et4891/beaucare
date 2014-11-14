@@ -1,8 +1,10 @@
-/* Version 0.8.2 Dated Nov 12, 2014 Office 2/7 Treatments*/
+/* Version 0.8.3 Dated Nov 13, 2014 Home 2/7 Treatments*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
+/*****************************************************************************************/
 /***************************************Home**********************************************/
+/*****************************************************************************************/
 /*
 *** Change Logo Size
  */
@@ -79,8 +81,9 @@ div#pg-16-1, div#pg-16-2, div#pg-16-3, div#pg-16-4{margin-top: 80px;}
 
 
 
-
+/**********************************************************************************************/
 /**************************************Global Topbar Style*************************************/
+/**********************************************************************************************/
 /*
 *** Change Social Media, Cart, Search to Black
  */
@@ -115,20 +118,18 @@ div.col-md-6.col-sm-6.kad-topbar-left{width: 45%;}
 *** Search Bar
  */
 /* Location Text */
-.location-topbar {color: #5A5A5A;}
-.location-topbar span.bold {font-weight: 800;}
+.location-topbar {font-size: 13px; float:right; margin-top: 10px; color: #000;}
 /* Search Input */
 div#topbar-search.topbar-widget > form#searchform.form-search {margin-top: 8px; margin-right: 30px;}
 form#searchform.form-search input#s.search-query, form#searchform.form-search button#searchsubmit.search-icon {height: 30px;}
 
-.location-topbar {font-size: 13px; float:right; margin-top: 5px; color: #000;}
 
 
 
 
-
-
-/************************Skin-condition global style***********************************************/
+/**********************************************************************************************/
+/************************Skin-condition global style*******************************************/
+/**********************************************************************************************/
 /*
 *** Page header remove
  */
@@ -214,18 +215,18 @@ div.entry-content.col-md-12.kad_portfolio_nomargin div.panel.widget.widget_virtu
 
 
 
-
-/**************************************Spa & wellness Style*************************************/
+/**********************************************************************************************/
+/**************************************Spa & wellness Style************************************/
+/**********************************************************************************************/
 /*
 *** Menu style
  */
 /*Menu*/
-div.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-spa-wellness-menu.menu{background:#EBDDE2; list-style-type: none; padding-left: 25px; font-size: 16px;line-height:25px;}
-div.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-spa-wellness-menu.menu>li{width: 260px; padding: 5px;}
-div.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-spa-wellness-menu.menu>li>a:link, div.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-spa-wellness-menu.menu>li>a:visited
-{width: 260px; padding: 5px; color: #5A5A5A;}
-div.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-spa-wellness-menu.menu>li>a:hover, div.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-spa-wellness-menu.menu>li>a:hover:active
-{background: #EFE4E8;width: 260px; padding: 5px;color: #5A5A5A;}
+
+ul#menu-spa-wellness-menu {background-color: #EBDDE2; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px;}
+ul#menu-spa-wellness-menu a {width: 100%; padding-left: 15%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
+ul#menu-spa-wellness-menu a:hover {background-color: #EFE4E8; display:block;}
+
 
 /*******************************************************/
 /*
@@ -234,44 +235,53 @@ div.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-spa-wellness-menu.men
 /*Acupunture Content Section*/
 div#panel-343-1-1-0, div#pg-343-2,
 /*Chiropractor Content Section*/
-div#panel-347-1-1-0, div#pg-347-2
+div#panel-347-1-1-0, div#pg-347-2,
+div#pgc-65-2-1, div#pgc-65-2-2
 {font-size: 19px; line-height: 1.3em; text-align: justify;}
 
 /*Chiropractor Header*/
 div#panel-343-1-1-0 h3.widget-title,
 /*Acupunture Header*/
-div#panel-347-1-1-0 h3.widget-title
+div#panel-347-1-1-0 h3.widget-title,
+div#pgc-65-2-1 h3.widget-title
 {font-size: 28px;font-weight: 600;}
 
 /*Acupunture Nav Menu Header*/
 div#panel-343-1-0-0 h3.widget-title,
 /*Chiropractor Nav Menu Header*/
-div#pgc-347-1-0 h3.widget-title
-{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; padding-left: 65px}
+div#pgc-347-1-0 h3.widget-title,
+div#pgc-65-2-0 h3.widget-title
+{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
 
 /*Acupunture Pricing Margins*/
 div#pg-343-2 div,
 /*Chiropractor Pricing Margins*/
-div#pg-347-2 div
+div#pg-347-2 div,
+div#pgc-65-2-1 div
 {margin-bottom: 0}
 
 
+.spa-treatments-description{font-style: italic;}
+.pricing{float: right;}
+p.spa-treatments{margin-bottom: 0;}
 
 
+/************************************************************************************************/
+/**************************************Global Carousel Style*************************************/
+/************************************************************************************************/
+/* Carousel Label Disabled */
+.portfolio_item .piteminfo {display: none;}
 
-/*
-.portfolio_item:hover .portfoliolink {
+/*Alternative way to disable the label*/
+/*.portfolio_item .portfoliolink {
 display: none;
-}
+}*/
 
-
-@media (max-width: 767px) {
-.portfolio_item .portfoliolink {
+/*Optional, always show carousel label*/
+/*.portfolio_item .portfoliolink {
     ms-filter: "alpha(Opacity=100)";
-filter: alpha(opacity=100);
--moz-opacity: 1;
--khtml-opacity: 1;
-opacity: 1;
+		filter: alpha(opacity=100);
+		-moz-opacity: 1;
+		-khtml-opacity: 1;
+		opacity: 1;
 }
-}
-*/
