@@ -1,8 +1,0 @@
-<div id="portfolio-consultation-box">
-	<p class="portfolio-consultation-header">Book Your Free Skin Care Consultation Now!</p>
-	<p class="portfolio-consultation-info">Begin your skincare future with an in-depth, thorough analysis of your skin and areas of concern.</p>
-
-	<p class="portfolio-consultation-link-paragraph">
-		<a class="portfolio-consultation-link" href="http://beaucare.ca/?page_id=175">BOOK FREE CONSULTATION</a>
-	</p>
-</div>

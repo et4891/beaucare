@@ -1,4 +1,4 @@
-/* Version 0.8.3 Dated Nov 13, 2014 Home 2/7 Treatments*/
+/* Version 0.8.4 Dated Nov 14, 2014 Home Done Treatments*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -199,19 +199,6 @@ div.entry-content.col-md-12.kad_portfolio_nomargin div.panel.widget.widget_virtu
 
 
 
-/*******************************************************/
-/*
-*** Assistance (Might not be needed)
- */
-/* Assistance Column Style */
-.entry-content.col-md-12.kad_portfolio_nomargin .panel.widget.widget_text.panel-last-child .skin-condition-assistance{text-align: center; background-color: #B2ADAD; padding: 10px 0;}
-
-/* Send An Email Link */
-.entry-content.col-md-12.kad_portfolio_nomargin .panel.widget.widget_text.panel-last-child .skin-condition-assistance a.skin-condition-send-email:link,.entry-content.col-md-12.kad_portfolio_nomargin .panel.widget.widget_text.panel-last-child .skin-condition-assistance a.skin-condition-send-email:visited{text-align: center; color:#cb5920;}
-
-.entry-content.col-md-12.kad_portfolio_nomargin .panel.widget.widget_text.panel-last-child .skin-condition-assistance a.skin-condition-send-email:hover{text-align: center; color: #000000;}
-
-.entry-content.col-md-12.kad_portfolio_nomargin .panel.widget.widget_text.panel-last-child .skin-condition-assistance .skin-condition-send-email{text-align: center; background-color:#B8F0FF;padding: 5px 10px;border-radius:20px;}
 
 
 
@@ -222,48 +209,86 @@ div.entry-content.col-md-12.kad_portfolio_nomargin div.panel.widget.widget_virtu
 *** Menu style
  */
 /*Menu*/
-
 ul#menu-spa-wellness-menu {background-color: #EBDDE2; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px;}
+/*Menu Link*/
 ul#menu-spa-wellness-menu a {width: 100%; padding-left: 15%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
+/*Menu Link Hover*/
 ul#menu-spa-wellness-menu a:hover {background-color: #EFE4E8; display:block;}
-
 
 /*******************************************************/
 /*
 *** Adjustments for the whole page
  */
-/*Acupunture Content Section*/
-div#panel-343-1-1-0, div#pg-343-2,
-/*Chiropractor Content Section*/
-div#panel-347-1-1-0, div#pg-347-2,
-div#pgc-65-2-1, div#pgc-65-2-2
-{font-size: 19px; line-height: 1.3em; text-align: justify;}
+/*Acupunture Nav Menu Header*/
+div#panel-343-1-0-0 h3.widget-title,
+/*Chiropractor Nav Menu Header*/
+div#panel-347-1-0-0 h3.widget-title,
+/*Clinical Facials Nav Menu Header*/
+div#pgc-65-1-0 h3.widget-title,
+/*Nail Care Nav Menu Header*/
+div#pgc-348-1-0 h3.widget-title,
+/*RMT Nav Menu Header*/
+div#pgc-346-1-0 h3.widget-title,
+/*Spa Facials Nav Menu Header*/
+div#pgc-342-1-0 h3.widget-title,
+/*Waxing / Tingting Nav Menu Header*/
+div#pgc-349-1-0 h3.widget-title
+{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
 
 /*Chiropractor Header*/
 div#panel-343-1-1-0 h3.widget-title,
 /*Acupunture Header*/
 div#panel-347-1-1-0 h3.widget-title,
-div#pgc-65-2-1 h3.widget-title
+/*Clinical Facials Header*/
+div#panel-65-1-1 h3.widget-title,
+/*Nail Care Header*/
+div#panel-348-1-1 h3.widget-title,
+/*RMT Care Header*/
+div#panel-346-1-1 h3.widget-title,
+/*Spa Facials Header*/
+div#panel-342-1-1 h3.widget-title,
+/*Waxing / Tingting Header*/
+div#panel-349-1-1 h3.widget-title
 {font-size: 28px;font-weight: 600;}
 
-/*Acupunture Nav Menu Header*/
-div#panel-343-1-0-0 h3.widget-title,
-/*Chiropractor Nav Menu Header*/
-div#pgc-347-1-0 h3.widget-title,
-div#pgc-65-2-0 h3.widget-title
-{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
+/*Acupunture Content Section*/
+div#pgc-343-1-1,
+/*Chiropractor Content Section*/
+div#pgc-347-1-1,
+/*Clinical Facials Content Section*/
+div#pgc-65-1-1,
+/*Nail Care Content Section*/
+div#pgc-348-1-1,
+/*RMT Content Section*/
+div#pgc-346-1-1,
+/*Spa Facials Content Section*/
+div#pgc-342-1-1,
+/*Waxing / Tingting Content Section*/
+div#pgc-349-1-1
+{font-size: 19px; line-height: 1.3em; text-align: justify;}
 
 /*Acupunture Pricing Margins*/
-div#pg-343-2 div,
+div#pgc-343-1-1 div,
 /*Chiropractor Pricing Margins*/
-div#pg-347-2 div,
-div#pgc-65-2-1 div
-{margin-bottom: 0}
+div#pgc-347-1-1 div,
+/*Clinical Facials Pricing Margins*/
+div#pgc-65-1-1 div,
+/*Nail Care Pricing Margines*/
+div#pgc-348-1-1 div,
+/*RMT Pricing Margines*/
+div#pgc-346-1-1 div,
+/*Spa Facials Margines*/
+div#pgc-342-1-1 div,
+/*Waxing / Tingting Margines*/
+div#pgc-349-1-1 div
+{margin-bottom: 10px}
 
-
-.spa-treatments-description{font-style: italic;}
-.pricing{float: right;}
+/*Between Treatment and it's description*/
 p.spa-treatments{margin-bottom: 0;}
+/*Treatment Description*/
+.spa-treatments-description{font-style: italic;}
+/*Treatment Pricing*/
+.pricing{float: right;}
 
 
 /************************************************************************************************/
@@ -271,6 +296,9 @@ p.spa-treatments{margin-bottom: 0;}
 /************************************************************************************************/
 /* Carousel Label Disabled */
 .portfolio_item .piteminfo {display: none;}
+
+/* Carousel Background */
+.fredcarousel {background: #EBDDE2;}
 
 /*Alternative way to disable the label*/
 /*.portfolio_item .portfoliolink {
