@@ -1,4 +1,4 @@
-/* Version 0.8.4 Dated Nov 14, 2014 Home Done Treatments*/
+/* Version 0.8.5 Dated Nov 18, 2014 Office*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -48,9 +48,9 @@ div#pg-16-1>div#panel-16-1-0-0>h3.widget-title{font-weight: 600;}
 div#panel-16-1-0-0 div.textwidget {text-align: justify;}
 .welcome-intro {font-size: 19px; line-height: 1.3em;}
 /* See Terms Button Style */
-a.see_term:link,a.see_term:visited{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000;}
+a.see_our_team:link,a.see_our_team:visited{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000;}
 /* See Terms Button Hover Style */
-a.see_term:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #EBDDE2;}
+a.see_our_team:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #EBDDE2;}
 
 /*******************************************************/
 /*
@@ -219,6 +219,10 @@ ul#menu-spa-wellness-menu a:hover {background-color: #EFE4E8; display:block;}
 /*
 *** Adjustments for the whole page
  */
+/*Spa & Wellness Nav Menu Header*/
+div#pgc-235-0-0 h3.widget-title
+{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; padding-left: 15%;}
+
 /*Acupunture Nav Menu Header*/
 div#panel-343-1-0-0 h3.widget-title,
 /*Chiropractor Nav Menu Header*/
@@ -235,6 +239,8 @@ div#pgc-342-1-0 h3.widget-title,
 div#pgc-349-1-0 h3.widget-title
 {background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
 
+/*Spa & Wellness Header*/
+div#panel-235-1-1 h3.widget-title,
 /*Chiropractor Header*/
 div#panel-343-1-1-0 h3.widget-title,
 /*Acupunture Header*/
@@ -251,6 +257,8 @@ div#panel-342-1-1 h3.widget-title,
 div#panel-349-1-1 h3.widget-title
 {font-size: 28px;font-weight: 600;}
 
+/*Spa & Wellness Content Section*/
+div#pgc-235-1-1,
 /*Acupunture Content Section*/
 div#pgc-343-1-1,
 /*Chiropractor Content Section*/
@@ -291,6 +299,101 @@ p.spa-treatments{margin-bottom: 0;}
 .pricing{float: right;}
 
 
+/**********************************************************************************************/
+/**************************************Laser Treatment Style***********************************/
+/**********************************************************************************************/
+/*
+*** Menu style
+ */
+/*Menu*/
+ul#menu-laser-treatment-menu {background-color: #EBDDE2; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px;}
+/*Sub Menu*/
+ul#menu-laser-treatment-menu ul.sf-dropdown-menu {background-color: #EBDDE2; list-style-type: none; width: 100%; margin-bottom: 0; font-size: 16px;line-height:25px; padding-left: 20px;}
+/*Menu Link*/
+ul#menu-laser-treatment-menu a {width: 100%; padding-left: 15%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
+/*Menu Link Hover*/
+ul#menu-laser-treatment-menu a:hover {background-color: #EFE4E8; display:block;}
+
+
+/*Laser Treatment Menu Header*/
+div#pgc-234-0-0 h3.widget-title,
+/*elōs Plus Nav Menu Header*/
+div#pgc-410-0-0 h3.widget-title,
+/*Acne Scar Nav Menu Header*/
+div#pgc-411-0-0 h3.widget-title,
+/*Acne Treatment Nav Menu Header*/
+div#pgc-420-0-0 h3.widget-title,
+/*Laser Hair Removal Nav Menu Header*/
+div#pgc-432-0-0 h3.widget-title,
+/*Photo Rejuvenation Nav Menu Header*/
+div#pgc-416-0-0 h3.widget-title,
+/*Sublative Nav Menu Header*/
+div#pgc-412-0-0 h3.widget-title,
+/*Sublime Skin Contouring Nav Menu Header*/
+div#pgc-413-0-0 h3.widget-title,
+/*Wrinkle Treatment Nav Menu Header*/
+div#pgc-414-0-0 h3.widget-title,
+/*Lumicell Wave 6 Nav Menu Header*/
+div#pgc-417-0-0 h3.widget-title,
+/*DiamondTome Nav Menu Header*/
+div#pgc-418-0-0 h3.widget-title,
+/*Hydradermie Nav Menu Header*/
+div#pgc-419-0-0 h3.widget-title
+{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
+
+/*Laser Treatment Content*/
+div#pgc-234-0-1,
+/*elōs Plus Content*/
+div#pgc-410-0-1,
+/*Acne Scar Content*/
+div#pgc-411-0-1,
+/*Acne Treatment Content*/
+div#pgc-420-0-1,
+/*Laser Hair Removal Content*/
+div#pgc-432-0-1,
+/*Photo Rejuvenation Content*/
+div#pgc-416-0-1,
+/*Sublative Content*/
+div#pgc-412-0-1,
+/*Sublime Skin Contouring Content*/
+div#pgc-413-0-1,
+/*Wrinkle Treatment Content*/
+div#pgc-414-0-1,
+/*Lumicell Wave 6 Content*/
+div#pgc-417-0-1,
+/*DiamondTome Content*/
+div#pgc-418-0-1,
+/*Hydradermie Content*/
+div#pgc-419-0-1
+{font-size: 19px; line-height: 1.3em; text-align: justify;}
+
+.laser-treatment-img{max-width: 60%;}
+
+
+/**********************************************************************************************/
+/*******************************About us/Policy/Team Style*************************************/
+/**********************************************************************************************/
+/*
+*** Menu style
+ */
+/*Menu*/
+ul#menu-about-us-menu {background-color: #EBDDE2; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding:0;}
+/*Menu Link*/
+ul#menu-about-us-menu a {width: 100%; padding-left: 15%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
+/*Menu Link Hover*/
+ul#menu-about-us-menu a:hover {background-color: #EFE4E8; display:block;}
+
+/*About us*/
+div#pgc-283-1-1{font-size: 19px; line-height: 1.3em; text-align: justify;}
+/*Policy*/
+div#pgc-449-0-1{font-size: 19px; line-height: 1.3em; text-align: justify;}
+
+.terms_header {font-size: 28px;font-weight: 600;}
+
+
+
+
+
 /************************************************************************************************/
 /**************************************Global Carousel Style*************************************/
 /************************************************************************************************/
@@ -313,8 +416,3 @@ display: none;
 		-khtml-opacity: 1;
 		opacity: 1;
 }
-
-
-/************************************************************************************************/
-/**************************************Global Newsletter Style***********************************/
-/************************************************************************************************/
