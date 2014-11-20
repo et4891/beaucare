@@ -1,4 +1,4 @@
-/* Version 0.8.5 Dated Nov 18, 2014 Office*/
+/* Version 0.8.6 Dated Nov 19, 2014 Office*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -120,7 +120,7 @@ div.col-md-6.col-sm-6.kad-topbar-left{width: 45%;}
 /* Location Text */
 .location-topbar {font-size: 13px; float:right; margin-top: 10px; color: #000;}
 /* Search Input */
-div#topbar-search.topbar-widget > form#searchform.form-search {margin-top: 8px; margin-right: 30px;}
+div#topbar-search.topbar-widget > form#searchform.form-search {margin:2px 0 0 0;}
 form#searchform.form-search input#s.search-query, form#searchform.form-search button#searchsubmit.search-icon {height: 30px;}
 
 
@@ -148,6 +148,14 @@ body.single-portfolio #pageheader.titleclass {display: none;}
 .entry-content.col-md-12.kad_portfolio_nomargin ul#menu-skin-condition.menu li>a:link,.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-skin-condition.menu li>a:visited{color: #000000;}
 
 .entry-content.col-md-12.kad_portfolio_nomargin ul#menu-skin-condition.menu li>a:hover{color: #B8F0FF;}
+
+/*******************************************************/
+/*
+*** Treatment option Nav Style
+ */
+div.treatment-option ul {list-style-type: none; font-size: 19px; line-height: 1.3em;}
+div.treatment-option a {width: 100%; color: #5A5A5A; display: block;}
+div.treatment-option a:hover {background-color: #EBDDE2;}
 
 /*******************************************************/
 /*
@@ -233,10 +241,16 @@ div#pgc-65-1-0 h3.widget-title,
 div#pgc-348-1-0 h3.widget-title,
 /*RMT Nav Menu Header*/
 div#pgc-346-1-0 h3.widget-title,
+/*Relation Massage Nav Menu Header*/
+div#pgc-481-1-0 h3.widget-title,
 /*Spa Facials Nav Menu Header*/
 div#pgc-342-1-0 h3.widget-title,
 /*Waxing / Tingting Nav Menu Header*/
-div#pgc-349-1-0 h3.widget-title
+div#pgc-349-1-0 h3.widget-title,
+/*Micro Content*/
+div#pgc-418-1-0 h3.widget-title,
+/*Hydradermie Content*/
+div#pgc-419-1-0 h3.widget-title
 {background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
 
 /*Spa & Wellness Header*/
@@ -249,12 +263,18 @@ div#panel-347-1-1-0 h3.widget-title,
 div#panel-65-1-1 h3.widget-title,
 /*Nail Care Header*/
 div#panel-348-1-1 h3.widget-title,
-/*RMT Care Header*/
+/*RMT Header*/
 div#panel-346-1-1 h3.widget-title,
+/*Relaxation Massage Header*/
+div#panel-481-1-1 h3.widget-title,
 /*Spa Facials Header*/
 div#panel-342-1-1 h3.widget-title,
 /*Waxing / Tingting Header*/
-div#panel-349-1-1 h3.widget-title
+div#panel-349-1-1 h3.widget-title,
+/*Micro Header*/
+div#panel-418-1-1 h3.widget-title,
+/*Hydra Header*/
+div#panel-419-1-1 h3.widget-title
 {font-size: 28px;font-weight: 600;}
 
 /*Spa & Wellness Content Section*/
@@ -269,10 +289,16 @@ div#pgc-65-1-1,
 div#pgc-348-1-1,
 /*RMT Content Section*/
 div#pgc-346-1-1,
+/*Relaxation Content Section*/
+div#pgc-481-1-1,
 /*Spa Facials Content Section*/
 div#pgc-342-1-1,
 /*Waxing / Tingting Content Section*/
-div#pgc-349-1-1
+div#pgc-349-1-1,
+/*Micro Content Section*/
+div#pgc-418-1-1,
+/*Hydra Content Section*/
+div#pgc-419-1-1
 {font-size: 19px; line-height: 1.3em; text-align: justify;}
 
 /*Acupunture Pricing Margins*/
@@ -285,6 +311,8 @@ div#pgc-65-1-1 div,
 div#pgc-348-1-1 div,
 /*RMT Pricing Margines*/
 div#pgc-346-1-1 div,
+/*Relaxation Pricing Margines*/
+div#pgc-481-1-1 div,
 /*Spa Facials Margines*/
 div#pgc-342-1-1 div,
 /*Waxing / Tingting Margines*/
@@ -294,9 +322,11 @@ div#pgc-349-1-1 div
 /*Between Treatment and it's description*/
 p.spa-treatments{margin-bottom: 0;}
 /*Treatment Description*/
-.spa-treatments-description{font-style: italic;}
+.spa-treatments-description{font-style: italic; font-size: 16px;}
 /*Treatment Pricing*/
 .pricing{float: right;}
+/*Photo Credit*/
+.photo-credit{font-style: italic;}
 
 
 /**********************************************************************************************/
@@ -334,11 +364,7 @@ div#pgc-413-0-0 h3.widget-title,
 /*Wrinkle Treatment Nav Menu Header*/
 div#pgc-414-0-0 h3.widget-title,
 /*Lumicell Wave 6 Nav Menu Header*/
-div#pgc-417-0-0 h3.widget-title,
-/*DiamondTome Nav Menu Header*/
-div#pgc-418-0-0 h3.widget-title,
-/*Hydradermie Nav Menu Header*/
-div#pgc-419-0-0 h3.widget-title
+div#pgc-417-0-0 h3.widget-title
 {background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
 
 /*Laser Treatment Content*/
@@ -360,11 +386,7 @@ div#pgc-413-0-1,
 /*Wrinkle Treatment Content*/
 div#pgc-414-0-1,
 /*Lumicell Wave 6 Content*/
-div#pgc-417-0-1,
-/*DiamondTome Content*/
-div#pgc-418-0-1,
-/*Hydradermie Content*/
-div#pgc-419-0-1
+div#pgc-417-0-1
 {font-size: 19px; line-height: 1.3em; text-align: justify;}
 
 .laser-treatment-img{max-width: 60%;}
@@ -392,6 +414,10 @@ div#pgc-449-0-1{font-size: 19px; line-height: 1.3em; text-align: justify;}
 
 
 
+/**********************************************************************************************/
+/************************************Contact us Style******************************************/
+/**********************************************************************************************/
+.contact-location{font-size: 19px; line-height: 1.5em;}
 
 
 /************************************************************************************************/
