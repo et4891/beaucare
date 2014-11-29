@@ -1,4 +1,4 @@
-﻿/* Version 0.8.7 Dated Nov 25, 2014 Office*/
+﻿/* Version 0.8.8 Dated Nov 29, 2014 Home*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -137,25 +137,36 @@ body.single-portfolio #pageheader.titleclass {display: none;}
 
 /*******************************************************/
 /*
-*** Left Nav Menu Style  (Might Not Be Needed)
- */
-/* Menu ul and li */
-.entry-content.col-md-12.kad_portfolio_nomargin ul{padding-left:0;}
-
-.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-skin-condition.menu li{list-style-type: none; padding-left: 15px; background-color: #CCCCCC; border-bottom: 1px solid #FFFFFF;}
-
-/* Menu Link */
-.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-skin-condition.menu li>a:link,.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-skin-condition.menu li>a:visited{color: #000000;}
-
-.entry-content.col-md-12.kad_portfolio_nomargin ul#menu-skin-condition.menu li>a:hover{color: #B8F0FF;}
-
-/*******************************************************/
-/*
 *** Treatment option Nav Style
  */
-div.treatment-option ul {list-style-type: none; font-size: 19px; line-height: 1.3em;}
+ul#menu-acne-treatments-option,
+ul#menu-wrinkles-treatments-option,
+ul#menu-scars-treatments-option,
+ul#menu-rosacea-treatments-option,
+ul#menu-body-treatments-option
+{list-style-type: none; font-size: 19px; line-height: 1.3em;}
+
+ul#menu-acne-treatments-option a,
+ul#menu-wrinkles-treatments-option a,
+ul#menu-scars-treatments-option a,
+ul#menu-rosacea-treatments-option a,
+ul#menu-body-treatments-option a
+{width: 100%; color: #5A5A5A; display: block; padding-left: 5%;}
+
+ul#menu-acne-treatments-option a:hover,
+ul#menu-wrinkles-treatments-option a:hover,
+ul#menu-scars-treatments-option a:hover,
+ul#menu-rosacea-treatments-option a:hover,
+ul#menu-body-treatments-option a:hover
+{background-color: #EBDDE2; padding-left: 5%;}
+/*******************************************************/
+/*
+*** Products option Nav Style
+ */
+/*div.treatment-option ul {list-style-type: none; font-size: 19px; line-height: 1.3em;}
 div.treatment-option a {width: 100%; color: #5A5A5A; display: block;}
-div.treatment-option a:hover {background-color: #EBDDE2;}
+div.treatment-option a:hover {background-color: #EBDDE2;}*/
+
 
 /*******************************************************/
 /*
@@ -336,11 +347,11 @@ p.spa-treatments{margin-bottom: 0;}
 *** Menu style
  */
 /*Menu*/
-ul#menu-laser-treatment-menu {background-color: #EBDDE2; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px;}
+ul#menu-laser-treatment-menu {background-color: #EBDDE2; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding:0;}
 /*Sub Menu*/
-ul#menu-laser-treatment-menu ul.sf-dropdown-menu {background-color: #EBDDE2; list-style-type: none; width: 100%; margin-bottom: 0; font-size: 16px;line-height:25px; padding-left: 20px;}
+/*ul#menu-laser-treatment-menu ul.sf-dropdown-menu {background-color: #EBDDE2; list-style-type: none; width: 100%; margin-bottom: 0; font-size: 16px;line-height:25px; padding-left: 20px;}*/
 /*Menu Link*/
-ul#menu-laser-treatment-menu a {width: 100%; padding-left: 15%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
+ul#menu-laser-treatment-menu a {width: 100%; padding-left: 10%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
 /*Menu Link Hover*/
 ul#menu-laser-treatment-menu a:hover {background-color: #EFE4E8; display:block;}
 
