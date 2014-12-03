@@ -1,4 +1,4 @@
-﻿/* Version 0.8.9 Dated Dec 2, 2014 Office*/
+﻿/* Version 0.9.0 Dated Dec 3, 2014 Home - Changed some pink theme to blue*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -52,7 +52,7 @@ div#panel-16-1-0-0 div.textwidget {text-align: justify;}
 /* See Terms Button Style */
 a.see_our_team:link,a.see_our_team:visited{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000;}
 /* See Terms Button Hover Style */
-a.see_our_team:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #EBDDE2;}
+a.see_our_team:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #BDEDFF;}
 
 /*******************************************************/
 /*
@@ -65,7 +65,7 @@ div#pg-16-4>div#pgc-16-4-0>div#panel-16-4-0-0>div.textwidget{width: auto; height
 /* Monthly Special Button Style */
 a.monthly-special-link:link, a.monthly-special-link:visited { padding: 5px 10px; border: 3px solid #000; color: #000;}
 /* Monthly Special Button Hover Style */
-a.monthly-special-link:hover { padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #EBDDE2;}
+a.monthly-special-link:hover { padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #BDEDFF;}
 /* Monthly Special Button With Responsive Style*/
 @media (max-device-width: 375px) {.monthly-special {font-size: 20px; padding-top: 60px;}}
 @media (max-device-width: 285px) {.monthly-special {font-size: 14px;}}
@@ -160,7 +160,7 @@ ul#menu-wrinkles-treatments-option a:hover,
 ul#menu-scars-treatments-option a:hover,
 ul#menu-rosacea-treatments-option a:hover,
 ul#menu-body-treatments-option a:hover
-{background-color: #EBDDE2; padding-left: 5%;}
+{background-color: #BDEDFF; padding-left: 5%;}
 /*******************************************************/
 /*
 *** Products option Nav Style
@@ -212,14 +212,6 @@ p.consultation-link-paragraph-in-portfolio:hover{margin-top: 30px; background-im
 
 
 
-/*******************************************************/
-/*
-*** Portfolio Carousel Header
- */
-div.entry-content.col-md-12.kad_portfolio_nomargin div.panel.widget.widget_virtue_carousel_widget.panel-first-child.panel-last-child>h3.widget-title{background-color: #EFE4E8; font-size: 18px; margin-top: 80px; margin-bottom: 0; padding-left: 15px}
-
-
-
 
 
 
@@ -230,20 +222,18 @@ div.entry-content.col-md-12.kad_portfolio_nomargin div.panel.widget.widget_virtu
 *** Menu style
  */
 /*Menu*/
-ul#menu-spa-wellness-menu {background-color: #EBDDE2; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding-left: 0;}
+ul#menu-spa-wellness-menu {background-color: #BDEDFF; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding-left: 0;}
 /*Menu Link*/
 ul#menu-spa-wellness-menu a {width: 100%; padding-left: 15%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
 /*Menu Link Hover*/
-ul#menu-spa-wellness-menu a:hover {background-color: #EFE4E8; display:block;}
+ul#menu-spa-wellness-menu a:hover {background-color: #BFFFF4; display:block;}
 
 /*******************************************************/
 /*
 *** Adjustments for the whole page
  */
 /*Spa & Wellness Nav Menu Header*/
-div#pgc-235-0-0 h3.widget-title
-{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; padding-left: 15%;}
-
+div#pgc-235-0-0 h3.widget-title,
 /*Acupunture Nav Menu Header*/
 div#panel-343-1-0-0 h3.widget-title,
 /*Chiropractor Nav Menu Header*/
@@ -264,7 +254,7 @@ div#pgc-349-1-0 h3.widget-title,
 div#pgc-418-1-0 h3.widget-title,
 /*Hydradermie Content*/
 div#pgc-419-1-0 h3.widget-title
-{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
+{background-color: #BFFFF4; font-size: 18px; margin-bottom: 0; text-align: center;}
 
 /*Spa & Wellness Header*/
 div#panel-235-1-1 h3.widget-title,
@@ -349,13 +339,13 @@ p.spa-treatments{margin-bottom: 0;}
 *** Menu style
  */
 /*Menu*/
-ul#menu-laser-treatment-menu {background-color: #EBDDE2; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding:0;}
+ul#menu-laser-treatment-menu {background-color: #BDEDFF; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding:0;}
 /*Sub Menu*/
 /*ul#menu-laser-treatment-menu ul.sf-dropdown-menu {background-color: #EBDDE2; list-style-type: none; width: 100%; margin-bottom: 0; font-size: 16px;line-height:25px; padding-left: 20px;}*/
 /*Menu Link*/
 ul#menu-laser-treatment-menu a {width: 100%; padding-left: 10%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
 /*Menu Link Hover*/
-ul#menu-laser-treatment-menu a:hover {background-color: #EFE4E8; display:block;}
+ul#menu-laser-treatment-menu a:hover {background-color: #BFFFF4; display:block;}
 
 
 /*Laser Treatment Menu Header*/
@@ -378,7 +368,7 @@ div#pgc-413-0-0 h3.widget-title,
 div#pgc-414-0-0 h3.widget-title,
 /*Lumicell Wave 6 Nav Menu Header*/
 div#pgc-417-0-0 h3.widget-title
-{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
+{background-color: #BFFFF4; font-size: 18px; margin-bottom: 0; text-align: center;}
 
 /*Laser Treatment Content*/
 div#pgc-234-0-1,
@@ -405,6 +395,13 @@ div#pgc-417-0-1
 .laser-treatment-img{max-width: 60%;}
 
 
+
+
+
+
+
+
+
 /**********************************************************************************************/
 /*******************************About us/Policy/Team Style*************************************/
 /**********************************************************************************************/
@@ -412,11 +409,11 @@ div#pgc-417-0-1
 *** Menu style
  */
 /*Menu*/
-ul#menu-about-us-menu {background-color: #EBDDE2; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding:0;}
+ul#menu-about-us-menu {background-color: #BDEDFF; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding:0;}
 /*Menu Link*/
 ul#menu-about-us-menu a {width: 100%; padding-left: 15%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
 /*Menu Link Hover*/
-ul#menu-about-us-menu a:hover {background-color: #EFE4E8; display:block;}
+ul#menu-about-us-menu a:hover {background-color: #BFFFF4; display:block;}
 
 /*About us*/
 div#pgc-283-1-1{font-size: 19px; line-height: 1.3em; text-align: justify;}
@@ -428,37 +425,47 @@ div#pgc-449-0-1 p{margin-bottom: 40px;}
 
 
 
+
+
+
 /**********************************************************************************************/
 /************************************Contact us Style******************************************/
 /**********************************************************************************************/
 .contact-location{font-size: 19px; line-height: 1.5em;}
 
+
+
+
+
+
+
+
+
+
 /**********************************************************************************************/
-/************************************Our Team Style******************************************/
+/**************************************Our Team Style******************************************/
 /**********************************************************************************************/
 
 body.page-id-446 div.row div>div>div>div{margin-bottom: 0;}
 .team-portfolio-title{font-size: 19px; line-height: 1.5em; text-align: center;}
 
 
-/**********************************************************************************************/
-/************************************Content Collapse Style************************************/
-/**********************************************************************************************/
-/* Collapse Contents */
-.collapseomatic_content{font-size: 17px;}
-/* Collapse title */
-.collapse-title{font-size: 19px; margin: 30px 0 0 0;}
-/* Collapse Sub titles */
-.collapse-sub-title{font-weight: 600; margin-bottom: 0;}
+
+
+
+
+
 
 /************************************************************************************************/
 /**************************************Global Carousel Style*************************************/
 /************************************************************************************************/
 /* Carousel Label Disabled */
 .portfolio_item .piteminfo {display: none;}
-
 /* Carousel Background */
 .fredcarousel {background: #EBDDE2;}
+/* Carousel Header */
+div.entry-content.col-md-12.kad_portfolio_nomargin div.panel.widget.widget_virtue_carousel_widget.panel-first-child.panel-last-child>h3.widget-title
+{background-color: #EFE4E8; font-size: 18px; margin-top: 80px; margin-bottom: 0; padding-left: 15px}
 
 /*Alternative way to disable the label*/
 /*.portfolio_item .portfoliolink {
@@ -473,3 +480,15 @@ display: none;
 		-khtml-opacity: 1;
 		opacity: 1;
 }
+
+
+
+/**********************************************************************************************/
+/************************************Content Collapse Style************************************/
+/**********************************************************************************************/
+/* Collapse Contents */
+.collapseomatic_content{font-size: 17px;}
+/* Collapse title */
+.collapse-title{font-size: 19px; margin: 30px 0 0 0;}
+/* Collapse Sub titles */
+.collapse-sub-title{font-weight: 600; margin-bottom: 0;}

@@ -1,4 +1,5 @@
-#BDEDFF
+#ebdde2 - pink
+#BDEDFF - blue
 
 Treatments Option:
 283
