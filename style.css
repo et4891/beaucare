@@ -1,4 +1,4 @@
-﻿/* Version 0.9.0 Dated Dec 3, 2014 Home - Changed some pink theme to blue*/
+﻿/* Version 0.9.1 Dated Dec 4, 2014 Home - Changed some pink theme to blue*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -49,9 +49,9 @@ div#pg-16-1>div#panel-16-1-0-0>h3.widget-title{font-weight: 600;}
 /* Welcome intro */
 div#panel-16-1-0-0 div.textwidget {text-align: justify;}
 .welcome-intro {font-size: 19px; line-height: 1.3em;}
-/* See Terms Button Style */
+/* See Team Button Style */
 a.see_our_team:link,a.see_our_team:visited{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000;}
-/* See Terms Button Hover Style */
+/* See Team Button Hover Style */
 a.see_our_team:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #BDEDFF;}
 
 /*******************************************************/
@@ -70,14 +70,6 @@ a.monthly-special-link:hover { padding: 5px 10px; border: 3px solid #000; color:
 @media (max-device-width: 375px) {.monthly-special {font-size: 20px; padding-top: 60px;}}
 @media (max-device-width: 285px) {.monthly-special {font-size: 14px;}}
 
-/*******************************************************/
-/* 
-*** Touch up for miscellaneous combinations
- */
-/* Treatment and Skin Condition Header Background */
-div#panel-16-2-0-0>h3, div#panel-16-3-0-0>h3{background-color: #EBDDE2; margin-bottom: 0; padding-left: 15px; font-size: 18px;}
-/* Top margin of Welcome to Synergy, Treatment and Skin Condition */
-div#pg-16-1, div#pg-16-2, div#pg-16-3, div#pg-16-4{margin-top: 80px;}
 
 
 
@@ -403,7 +395,7 @@ div#pgc-417-0-1
 
 
 /**********************************************************************************************/
-/*******************************About us/Policy/Team Style*************************************/
+/*******************************About us/Client Experience/Team Style*************************************/
 /**********************************************************************************************/
 /*
 *** Menu style
@@ -417,11 +409,12 @@ ul#menu-about-us-menu a:hover {background-color: #BFFFF4; display:block;}
 
 /*About us*/
 div#pgc-283-1-1{font-size: 19px; line-height: 1.3em; text-align: justify;}
-/*Policy*/
+
+/*Client Experience*/
 div#pgc-449-0-1{font-size: 19px; line-height: 1.3em; text-align: justify;}
 div#pgc-449-0-1 p{margin-bottom: 40px;}
 
-.terms_header {font-size: 28px;font-weight: 600;}
+
 
 
 
@@ -492,3 +485,23 @@ display: none;
 .collapse-title{font-size: 19px; margin: 30px 0 0 0;}
 /* Collapse Sub titles */
 .collapse-sub-title{font-weight: 600; margin-bottom: 0;}
+
+
+
+
+
+
+
+/**********************************************************************************************/
+/**********************Touch up for miscellaneous combinations*********************************/
+/**********************************************************************************************/
+/* Treatment and Skin Condition Header Background */
+div#panel-16-2-0-0>h3, div#panel-16-3-0-0>h3{background-color: #EBDDE2; margin-bottom: 0; padding-left: 15px; font-size: 18px;}
+/* Top margin of Welcome to Synergy, Treatment and Skin Condition */
+div#pg-16-1, div#pg-16-2, div#pg-16-3, div#pg-16-4{margin-top: 80px;}
+
+/* Header for
+		Client Experience
+		Our Team
+*/
+.header28 {font-size: 28px;font-weight: 600;}
