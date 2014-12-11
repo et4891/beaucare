@@ -1,4 +1,4 @@
-﻿/* Version 0.9.1 Dated Dec 4, 2014 Home - Changed some pink theme to blue*/
+﻿ /*Version 1 Dec 10, 2014 'Completed for production'*/
 
 body, p, h1, h2, h3, h4, h5, h6 {color: #5A5A5A;}
 
@@ -19,7 +19,7 @@ img.kad-standard-logo{max-width:300px !important;}
 /* Nav Font Size */
 .menu-home.menu-item-30{font-size: 18px;}
 /* Nav Hover */
-#menu-top-navigation.sf-menu.sf-js-enabled a:hover{border-bottom: 3px solid #BDEDFF;}
+#menu-top-navigation.sf-menu.sf-js-enabled a:hover{border-bottom: 3px solid #BBD8ED;}
 
 /*******************************************************/
 /*
@@ -52,7 +52,7 @@ div#panel-16-1-0-0 div.textwidget {text-align: justify;}
 /* See Team Button Style */
 a.see_our_team:link,a.see_our_team:visited{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000;}
 /* See Team Button Hover Style */
-a.see_our_team:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #BDEDFF;}
+a.see_our_team:hover{font-size: 21px; padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #BBD8ED;}
 
 /*******************************************************/
 /*
@@ -65,7 +65,7 @@ div#pg-16-4>div#pgc-16-4-0>div#panel-16-4-0-0>div.textwidget{width: auto; height
 /* Monthly Special Button Style */
 a.monthly-special-link:link, a.monthly-special-link:visited { padding: 5px 10px; border: 3px solid #000; color: #000;}
 /* Monthly Special Button Hover Style */
-a.monthly-special-link:hover { padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #BDEDFF;}
+a.monthly-special-link:hover { padding: 5px 10px; border: 3px solid #000; color: #000; background-color: #BBD8ED;}
 /* Monthly Special Button With Responsive Style*/
 @media (max-device-width: 375px) {.monthly-special {font-size: 20px; padding-top: 60px;}}
 @media (max-device-width: 285px) {.monthly-special {font-size: 14px;}}
@@ -124,12 +124,6 @@ form#searchform.form-search input#s.search-query, form#searchform.form-search bu
 /**********************************************************************************************/
 /************************Skin-condition global style*******************************************/
 /**********************************************************************************************/
-/*
-*** Page header remove
- */
-body.single-portfolio #pageheader.titleclass {display: none;}
-
-/*******************************************************/
 /*
 *** Treatment option Nav Style
  */
@@ -214,16 +208,12 @@ p.consultation-link-paragraph-in-portfolio:hover{margin-top: 30px; background-im
 *** Menu style
  */
 /*Menu*/
-ul#menu-spa-wellness-menu {background-color: #BDEDFF; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding-left: 0;}
+ul#menu-spa-wellness-menu {background-color: #BBD8ED; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding-left: 0;}
 /*Menu Link*/
 ul#menu-spa-wellness-menu a {width: 100%; padding-left: 15%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
 /*Menu Link Hover*/
-ul#menu-spa-wellness-menu a:hover {background-color: #BFFFF4; display:block;}
+ul#menu-spa-wellness-menu a:hover {background-color: #EFE4E8; display:block;}
 
-/*******************************************************/
-/*
-*** Adjustments for the whole page
- */
 /*Spa & Wellness Nav Menu Header*/
 div#pgc-235-0-0 h3.widget-title,
 /*Acupunture Nav Menu Header*/
@@ -242,14 +232,14 @@ div#pgc-481-1-0 h3.widget-title,
 div#pgc-342-1-0 h3.widget-title,
 /*Waxing / Tingting Nav Menu Header*/
 div#pgc-349-1-0 h3.widget-title,
-/*Micro Content*/
+/*Micro Content Nav Menu Header*/
 div#pgc-418-1-0 h3.widget-title,
-/*Hydradermie Content*/
+/*Hydradermie Content Nav Menu Header*/
 div#pgc-419-1-0 h3.widget-title
-{background-color: #BFFFF4; font-size: 18px; margin-bottom: 0; text-align: center;}
+{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
 
 /*Spa & Wellness Header*/
-div#panel-235-1-1 h3.widget-title,
+div#panel-235-0-1 h3.widget-title,
 /*Chiropractor Header*/
 div#panel-343-1-1-0 h3.widget-title,
 /*Acupunture Header*/
@@ -273,7 +263,7 @@ div#panel-419-1-1 h3.widget-title
 {font-size: 28px;font-weight: 600;}
 
 /*Spa & Wellness Content Section*/
-div#pgc-235-1-1,
+div#pgc-235-0-1,
 /*Acupunture Content Section*/
 div#pgc-343-1-1,
 /*Chiropractor Content Section*/
@@ -331,13 +321,11 @@ p.spa-treatments{margin-bottom: 0;}
 *** Menu style
  */
 /*Menu*/
-ul#menu-laser-treatment-menu {background-color: #BDEDFF; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding:0;}
-/*Sub Menu*/
-/*ul#menu-laser-treatment-menu ul.sf-dropdown-menu {background-color: #EBDDE2; list-style-type: none; width: 100%; margin-bottom: 0; font-size: 16px;line-height:25px; padding-left: 20px;}*/
+ul#menu-laser-treatment-menu {background-color: #BBD8ED; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding:0;}
 /*Menu Link*/
 ul#menu-laser-treatment-menu a {width: 100%; padding-left: 10%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
 /*Menu Link Hover*/
-ul#menu-laser-treatment-menu a:hover {background-color: #BFFFF4; display:block;}
+ul#menu-laser-treatment-menu a:hover {background-color: #EFE4E8; display:block;}
 
 
 /*Laser Treatment Menu Header*/
@@ -360,7 +348,7 @@ div#pgc-413-0-0 h3.widget-title,
 div#pgc-414-0-0 h3.widget-title,
 /*Lumicell Wave 6 Nav Menu Header*/
 div#pgc-417-0-0 h3.widget-title
-{background-color: #BFFFF4; font-size: 18px; margin-bottom: 0; text-align: center;}
+{background-color: #EFE4E8; font-size: 18px; margin-bottom: 0; text-align: center;}
 
 /*Laser Treatment Content*/
 div#pgc-234-0-1,
@@ -398,19 +386,18 @@ div#pgc-417-0-1
 /*******************************About us/Client Experience/Team Style*************************************/
 /**********************************************************************************************/
 /*
-*** Menu style
+*** About Us Menu style
  */
 /*Menu*/
-ul#menu-about-us-menu {background-color: #BDEDFF; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding:0;}
+ul#menu-about-us-menu {background-color: #BBD8ED; width: 100%; list-style-type: none; margin-bottom: 0; font-size: 16px;line-height:25px; padding:0;}
 /*Menu Link*/
 ul#menu-about-us-menu a {width: 100%; padding-left: 15%; display:block; padding-top: 5px; padding-bottom: 5px; color: #5A5A5A;}
 /*Menu Link Hover*/
-ul#menu-about-us-menu a:hover {background-color: #BFFFF4; display:block;}
-
-/*About us*/
+ul#menu-about-us-menu a:hover {background-color: #EFE4E8; display:block;}
+/*Contents*/
 div#pgc-283-1-1{font-size: 19px; line-height: 1.3em; text-align: justify;}
 
-/*Client Experience*/
+/*Client Experience Contents*/
 div#pgc-449-0-1{font-size: 19px; line-height: 1.3em; text-align: justify;}
 div#pgc-449-0-1 p{margin-bottom: 40px;}
 
@@ -439,7 +426,9 @@ div#pgc-449-0-1 p{margin-bottom: 40px;}
 /**************************************Our Team Style******************************************/
 /**********************************************************************************************/
 
+/* Margin for team's professionail */
 body.page-id-446 div.row div>div>div>div{margin-bottom: 0;}
+/* Team's name */
 .team-portfolio-title{font-size: 19px; line-height: 1.5em; text-align: center;}
 
 
@@ -505,3 +494,9 @@ div#pg-16-1, div#pg-16-2, div#pg-16-3, div#pg-16-4{margin-top: 80px;}
 		Our Team
 */
 .header28 {font-size: 28px;font-weight: 600;}
+
+
+/* Remove all page headers */
+#pageheader.titleclass {display: none;}
+/*remove only portfolio headers*/
+/*body.single-portfolio #pageheader.titleclass {display: none;}*/
